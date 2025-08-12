@@ -37,9 +37,9 @@ function MyForm(props) {
                         <Form.Control as="textarea" rows={10} onChange={HandleChange} value={Text} className={props.Mode === "dark" ? "textbox-dark" : "textbox-light"}/>
                     </Form.Group>
                 </Form>
-                <Button variant="primary" onClick={HandleUpCase}>Change to UpperCase</Button>
-                <Button variant="primary" onClick={HandleLoCase} className='mx-3'>Change to LowerCase</Button>
-                <Button variant="primary" onClick={HandleClear} >Clear Text</Button>
+                <Button variant="primary" onClick={HandleUpCase} className='mx-2'>Change to UpperCase</Button>
+                <Button variant="primary" onClick={HandleLoCase} className='mx-2 my-2'>Change to LowerCase</Button>
+                <Button variant="primary" onClick={HandleClear} className='mx-2'>Clear Text</Button>
                 <h1 className='my-4'>Summary</h1>
                 <p>Number Of Letters : {Letters}</p>
                 <p>Number Of Words : {Words}</p>
