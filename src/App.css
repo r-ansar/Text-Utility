@@ -1,0 +1,18 @@
+.label-white {
+  color: white;
+}
+
+.label-black {
+  color: black;
+}
+.textbox-dark {
+  background-color: #333 !important;
+  color: white !important;
+  border: 1px solid white !important;
+}
+
+.textbox-light {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid black !important;
+}
