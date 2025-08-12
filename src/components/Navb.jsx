@@ -14,7 +14,7 @@ function MyNav(props) {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" bg={props.Mode} data-bs-theme={props.Mode}>
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">Text-Utility</Navbar.Brand>
         
         <Form>
           <Form.Check // prettier-ignore
